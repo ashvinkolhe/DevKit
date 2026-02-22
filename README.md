@@ -11,33 +11,11 @@ No login. No signup. No tracking. Everything runs in your browser.
 
 ## Features
 
-- **15 built-in tools** JSON, Diff, Regex, Hash, JWT, Color, and more
+- **20+ built-in tools** JSON, Diff, Regex, Hash, JWT, Color, and more
 - **React 18 + Vite 5** Fast builds, HMR, lazy-loaded droutes
 - **CSS Modules** Scoped styles, no clashes, no CSS-in-JS bloat
 - **Privacy first** Zero server requests for tool processing
 - **MIT licensed** Fork, self-host, modify freely
-
----
-
-## Tools Included
-
-| Tool | Description |
-|------|-------------|
-| JSON Formatter  | Format, validate, minify JSON |
-| Diff Viewer     | Line-by-line text comparison |
-| Regex Tester    | Live match highlighting |
-| Text Analyzer   | Char, word, reading time stats |
-| Markdown Preview | Live Markdown rendering |
-| Base64 Coder    | Encode/decode Base64 |
-| URL Encoder     | Percent-encode/decode URLs |
-| HTML Entities   | Encode/decode HTML chars |
-| Hash Generator  | SHA-1/256/384/512 via Web Crypto |
-| JWT Decoder     | Decode tokens, check expiry |
-| Unix Timestamp  | Convert epochs & dates |
-| Color Picker    | HEX / RGB / HSL converter |
-| Base Converter  | DEC / BIN / OCT / HEX |
-| CSS Shadow Gen  | Visual box-shadow builder |
-| Lorem Ipsum     | Generate placeholder text |
 
 ---
 
