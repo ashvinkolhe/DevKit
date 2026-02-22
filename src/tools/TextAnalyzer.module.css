@@ -1,0 +1,18 @@
+.statsGrid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px;
+}
+.statCard {
+  background: var(--bg-input); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 12px; text-align: center;
+}
+.statVal { font-size: 1.5rem; font-weight: 800; color: var(--accent); letter-spacing: -0.03em; }
+.statLabel { font-size: 0.7rem; color: var(--text-muted); margin-top: 3px; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+
+.freqRow { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px; background: var(--bg-input); border: 1px solid var(--border); border-radius: var(--r); min-height: 40px; }
+.freqChip {
+  display: flex; align-items: center; gap: 5px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--r-xs); padding: 3px 9px; font-size: 0.78rem;
+}
+.freqChar { font-family: var(--font-mono); font-weight: 700; color: var(--accent); }
+.freqNum { color: var(--text-secondary); }

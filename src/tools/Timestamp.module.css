@@ -1,0 +1,4 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+.card { background: var(--bg-input); border: 1px solid var(--border); border-radius: var(--r); padding: 14px; }
+.label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 5px; font-weight: 600; }
+.value { font-family: var(--font-mono); font-size: 0.84rem; color: var(--text-primary); word-break: break-all; }

@@ -1,0 +1,8 @@
+.hashList { display: flex; flex-direction: column; gap: 8px; }
+.hashRow {
+  background: var(--bg-input); border: 1px solid var(--border);
+  border-radius: var(--r-sm); padding: 10px 14px;
+  display: flex; align-items: center; gap: 12px;
+}
+.hashLabel { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); min-width: 64px; }
+.hashValue { flex: 1; font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-secondary); word-break: break-all; }

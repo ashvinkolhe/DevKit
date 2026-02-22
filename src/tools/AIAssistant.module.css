@@ -1,0 +1,48 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.messages {
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  background: var(--bg-input);
+  min-height: 300px;
+  max-height: 440px;
+  overflow-y: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  border-radius: var(--r-sm);
+  padding: 10px 12px;
+}
+
+.msgUser {
+  border-color: rgba(79, 142, 247, 0.45);
+}
+
+.msgRole {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.msgText {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  font-size: 0.86rem;
+}
+
+.inputRow {
+  display: grid;
+  gap: 8px;
+}

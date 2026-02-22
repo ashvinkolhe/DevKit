@@ -1,0 +1,4 @@
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+.item { display: flex; flex-direction: column; gap: 6px; }
+.label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }

@@ -1,0 +1,11 @@
+.layout { display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: flex-start; }
+.leftCol { display: flex; flex-direction: column; gap: 10px; min-width: 220px; flex: 1; }
+.rightCol { flex: 2; min-width: 260px; display: flex; flex-direction: column; gap: 10px; }
+.picker { width: 100%; height: 56px; border: 1px solid var(--border); border-radius: var(--r); cursor: pointer; background: none; padding: 4px; }
+.preview { width: 100%; height: 110px; border-radius: var(--r); border: 1px solid var(--border); transition: background 0.15s; }
+.swatches { display: flex; flex-wrap: wrap; gap: 7px; }
+.swatch { width: 34px; height: 34px; border-radius: 8px; cursor: pointer; border: none; transition: transform 0.15s, outline-offset 0.1s; outline-offset: 2px; }
+.swatch:hover { transform: scale(1.12); }
+.field { display: flex; flex-direction: column; gap: 5px; }
+.fieldLabel { font-size: 0.72rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+.fieldRow { display: flex; gap: 8px; }

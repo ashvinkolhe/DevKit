@@ -1,0 +1,11 @@
+.parts { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+@media (max-width: 700px) { .parts { grid-template-columns: 1fr; } }
+.part { border-radius: var(--r-sm); padding: 12px; }
+.partHeader { background: rgba(248,113,113,0.06); border: 1px solid rgba(248,113,113,0.2); }
+.partPayload { background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.2); }
+.partSig    { background: rgba(124,111,247,0.06); border: 1px solid rgba(124,111,247,0.2); }
+.partLabel { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+.red    { color: #f87171; }
+.yellow { color: #fbbf24; }
+.purple { color: #a78bfa; }
+.partJson { font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-secondary); white-space: pre; overflow: auto; max-height: 220px; }
