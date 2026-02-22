@@ -22,7 +22,7 @@ export default function Sidebar({ activeTool, history = [], onClearHistory, onCl
   return (
     <aside className={styles.sidebar}>
       <div className={styles.header}>
-        <div className={styles.logoIcon}>DT</div>
+        <div className={styles.logoIcon}>DK</div>
         <Link to="/" className={styles.logoText}>
           Dev<span className={styles.accent}>Kit</span>
         </Link>
