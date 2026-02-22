@@ -24,7 +24,7 @@ export default function Sidebar({ activeTool, history = [], onClearHistory, onCl
       <div className={styles.header}>
         <div className={styles.logoIcon}>DT</div>
         <Link to="/" className={styles.logoText}>
-          <span className={styles.accent}>DevKit</span>
+          Dev<span className={styles.accent}>Kit</span>
         </Link>
         <button className={styles.closeBtn} onClick={onClose} aria-label="Close menu">x</button>
       </div>
