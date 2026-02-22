@@ -137,7 +137,7 @@ export default function Landing() {
           <div className={styles.ctaGlow} aria-hidden />
           <div className={styles.ctaBadge}>Built for daily dev workflows</div>
           <div className={styles.ctaEmblem}>
-            <span className={styles.ctaEmblemCore}>DveKit</span>
+            <span className={styles.ctaEmblemCore}>DevKit</span>
             <span className={styles.ctaEmblemRing} aria-hidden />
           </div>
           <h2 className={styles.ctaTitle}>Ready to build faster?</h2>
@@ -156,7 +156,7 @@ export default function Landing() {
 
       <footer className={styles.footer}>
         <div className={styles.footerBrand}>
-          <div className={styles.logoIcon}>DT</div>
+          <div className={styles.logoIcon}>DK</div>
           <span className={styles.accent}>DevKit</span>
         </div>
         <div className={styles.footerLinks}>
